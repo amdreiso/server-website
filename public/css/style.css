@@ -1,0 +1,45 @@
+
+body {
+	margin: 0;
+
+	--background-color: #111111;
+	--text-color: #ddd;
+	--link-color: #20dd20;
+	--bar-color: #ccc;
+
+	background: var(--background-color);
+	color: var(--text-color);
+}
+
+.pages {
+	display: flex;
+}
+
+a {
+	color: var(--link-color);
+}
+
+bar {
+	width: 90%;
+	height: 0px;
+
+	margin: 15px 0;
+
+	border: 1px solid var(--bar-color);
+}
+
+.display {
+	width: 90%;
+	margin: 0 auto;
+	
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+

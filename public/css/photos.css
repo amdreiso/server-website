@@ -1,0 +1,15 @@
+
+#photos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.photo-display img {
+	width: 300px;
+	position: fixed;
+}
+
+
