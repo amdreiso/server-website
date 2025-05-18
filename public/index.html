@@ -9,14 +9,23 @@
 	</head>
 
 	<body>
-		<div class="sidebar">
-			<a href="index.html">amdrei@server</a>
-			<bar></bar>
-			<a href="">movies</a>
-			<a href="photos.html">photos</a>
-		</div>
-		<div class="display">
-			<h1>welcome to amdrei's server!</h1>
+		<div class="app">
+			<div class="sidebar">
+				<a href="index.html">amdrei@server</a>
+				<bar></bar>
+				<a href="">movies</a>
+				<a href="photos.html">photos</a>
+			</div>
+			<div class="display">
+				<h1>welcome to amdrei's server!</h1>
+
+				<div class="upload-section">
+					<form action="/upload" method="post" enctype="multipart/form-data">
+						<input type="file" name="file" required>
+						<button type="submit">Upload</button>
+					</form>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
